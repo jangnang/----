@@ -1,0 +1,42 @@
+/* logo修饰 */
+a.navbar-brand{
+    padding: 0;
+}
+
+a.navbar-brand img{
+    height: 50px;
+}
+/* logo修饰 */
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearFix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 放大镜部分开始 */
+.enlarge{
+    width: 500px;
+}
+/* 放大镜部分结束 */
+/* 商品部分开始 */
+.goods{
+    width: 500px;
+}
+/* 商品部分结束 */
+
+
+/* 底部开始 */
+.footer{
+    height: 100px;
+    background-color: #00f;
+}
+/* 底部结束 */

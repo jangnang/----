@@ -1,0 +1,43 @@
+/* logo修饰 */
+a.navbar-brand{
+    padding: 0;
+}
+
+a.navbar-brand img{
+    height: 50px;
+}
+/* logo修饰 */
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearFix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 商品部分开始 */
+.goods img{
+    width: 100px;
+    height: 100px;
+}
+table.table>tbody>tr>td, table.table>tbody>tr>th, table.table>tfoot>tr>td, table.table>tfoot>tr>th, table.table>thead>tr>td, table.table>thead>tr>th{
+    vertical-align: middle;
+}
+.goods [name="number"]{
+    width: 50px;
+}
+/* 商品部分结束 */
+
+/* 底部开始 */
+.footer{
+    height: 100px;
+    background-color: #00f;
+}
+/* 底部结束 */

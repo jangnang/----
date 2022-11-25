@@ -1,0 +1,17 @@
+/* logo修饰 */
+a.navbar-brand{
+    padding: 0;
+}
+
+a.navbar-brand img{
+    height: 50px;
+}
+/* logo修饰 */
+
+
+/* 底部开始 */
+.footer{
+    height: 100px;
+    background-color: #00f;
+}
+/* 底部结束 */

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/register.css">
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/node_modules/layui-layer/dist/layer.js"></script>
+
+    <script src="./js/utils.js"></script>
+</head>
+<body>
+<h1 class="text-center">注册</h1>
+<form class="form-horizontal register-form">
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">用户名：</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" name="username" placeholder="输入用户名">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">密码：</label>
+        <div class="col-sm-8">
+        <input type="password" id="password" class="form-control" name="password" placeholder="输入密码">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">确认密码：</label>
+        <div class="col-sm-8">
+        <input type="password" class="form-control" name="repass" placeholder="再次输入密码">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">手机号</label>
+        <div class="col-sm-8">
+        <input type="text" class="form-control" name="tel" placeholder="输入手机号">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">邮箱</label>
+        <div class="col-sm-8">
+        <input type="text" class="form-control" name="email" placeholder="输入邮箱">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-8">
+        <div class="checkbox">
+            <label>
+            <input type="checkbox" name="agree"> 协议
+            </label>
+        </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn submit btn-default">注册</button>
+        </div>
+    </div>
+</form>
+</body>
+<script src="./js/register.js"></script>
+</html>

@@ -1,0 +1,63 @@
+/* logo修饰 */
+a.navbar-brand{
+    padding: 0;
+}
+
+a.navbar-brand img{
+    height: 50px;
+}
+/* logo修饰 */
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearFix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 用户信息开始 */
+.user table.table>tbody>tr>td, .user table.table>tbody>tr>th, .user table.table>tfoot>tr>td, .user table.table>tfoot>tr>th, .user table.table>thead>tr>td, .user table.table>thead>tr>th{
+    vertical-align: middle;
+    border-top: none;
+}
+.user .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 100%;
+}
+.user .menu ul li.on{
+    background-color: #abcdef;
+}
+.menu{
+    height: 400px;
+
+}
+.center{
+    width: 888px;
+}
+.user .menu ul li{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    margin: 10px 0;
+}
+
+
+/* 用户信息结束 */
+
+/* 底部开始 */
+.footer{
+    height: 100px;
+    background-color: #00f;
+    margin-top: 20px;
+}
+/* 底部结束 */
