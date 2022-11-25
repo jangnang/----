@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./js/promiseAjax.js"></script>
+</head>
+
+<body>
+    <form action="">
+        用户名：<input type="text" name="username">
+        <br>
+        密码：
+        <input type="password" name="password">
+        <br>
+        邮箱：<input type="email" name="email">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+<script>
+    document.querySelector('form').onsubmit = function () {
+        var username = document.querySelector('[name="username"]').value
+        var password = document.querySelector('[name="password"]').value
+        var email = document.querySelector('[name="email"]').value
+        request({
+            // url: 'http://localhost:3000/api/users/register',
+            // 跨域了，用proxy
+            url: '/api/users/register',
+            method: 'post',
+            data: {
+                username,
+                password,
+                email
+            }
+        }).then(res => {
+            // console.log(res);
+            var {
+                error_code,
+                msg
+            } = res
+            alert(msg)
+            if (error_code === 0) {
+                location.href = './login.html'
+            }
+        })
+        return false
+    }
+</script>
+
+</html>

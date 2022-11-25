@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./js/promiseAjax.js"></script>
+    <script src="./js/cookie.js"></script>
+
+    <link rel="stylesheet" href="./css/useredit.css">
+</head>
+
+<body>
+    <h1>用户修改页面</h1>
+    <form action="">
+        头像：
+        <img src="" alt="">
+        <input type="file" name='avatar'>
+        <br>
+        用户名：<input type="text" name="username">
+        <br>
+        邮箱：<input type="email" name="email">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+<script src="./js/useredit.js">
+    /*
+修改用户信息：
+    获取用户信息，展示在页面中
+    表单提交 - 包含了普通数据，也包含了文件信息
+        获取要提交的数据 - formdata
+            var formdata = new FormData()
+            formdata.append(键, 值)
+            formdata.append(文件的键, input.files[0])
+        ajax提交表单数据，
+            data: formdata
+*/
+</script>
+
+</html>
