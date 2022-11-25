@@ -1,0 +1,72 @@
+.top{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+.top .emlarge{
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+/* .top .enlarge img{
+    width: 450px;
+    height: 450px;
+} */
+.top .goods{
+    width: 100%;
+    height: 450px;
+    margin-left: 30px;
+    
+}
+p{
+   font: bold 24px/24px '';
+}
+button{
+
+
+    margin: 20px;
+}
+
+
+
+/* .fdj {
+    position: relative;
+    overflow: hidden;
+} */
+
+.leftBox {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 30px 0px 0px 50px;
+}
+
+.leftBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.mark {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.rightBox {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 530px;
+    top: 30px;
+    overflow: hidden;
+    display: none;
+}
+
+.rightBox img {
+    position: absolute;
+}
